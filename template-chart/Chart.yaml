@@ -1,0 +1,19 @@
+annotations:
+  category: Infrastructure
+  licenses: Apache-2.0
+apiVersion: v2
+appVersion: 0.1.0
+description: Simple extension chart that lets you render any templates from values.yaml
+home: https://github.com/migruiz4/template-values-chart
+keywords:
+  - template
+  - helper
+  - extension
+maintainers:
+  - name: Miguel Ruiz (migruiz4)
+    url: https://github.com/migruiz4
+name: template
+sources:
+  - https://github.com/migruiz4/template-values-chart
+type: application
+version: 0.1.0
