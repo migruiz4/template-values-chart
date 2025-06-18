@@ -16,7 +16,7 @@ dependencies:
 - name: example
   repository: <your-charts-repo>
 - name: template
-  repository: oci://ghcr.io/migruiz4
+  repository: oci://ghcr.io/migruiz4/template-values-chart
   version: 0.1.0
 ```
 
@@ -46,7 +46,7 @@ releases:
   chart: <your-chart>
   dependencies:
   - name: template
-    chart: oci://ghcr.io/migruiz4/template
+    chart: oci://ghcr.io/migruiz4/template-values-chart/template
     version: 0.1.0
 ```
 
